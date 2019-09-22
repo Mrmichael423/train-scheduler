@@ -27,16 +27,18 @@
     ></script>
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Train Scheduler</title>
   </head>
   <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Track Your Train</h1>
-          <p class="lead"></p>
+          <p class="lead">Enter your train information to find out when your next train will arrive.</p>
         </div>
       </div>
-
+      <div class="container" id="schedule">
       <table id="info" class="table table-hover">
         <thead>
           <tr>
@@ -49,8 +51,10 @@
         <tbody>
         </tbody>
       </table>
-
+    </div>
+<div class="container" id="form">
 <form>
+  <h2>Enter your train info here:</h2>
   <div class="form-group">
     <label for="exampleInputEmail1">Train Name:</label>
     <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="The A line">

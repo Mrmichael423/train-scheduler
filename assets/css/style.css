@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://cnet4.cbsistatic.com/img/N851BhtKxVlKX9UzGzLVBNbFUwY=/1600x900/2018/12/04/c097765e-dd58-4eac-8bd6-711586294a32/acela-1080.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#schedule {
+    background: lightblue;
+    border: dotted;
+    border-width: thick;
+}
+
+#form {
+    background: lightblue;
+    border: solid;
+    border-width: thick;
+    margin-top: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+
+
+.jumbotron {
+    background: slategray;
+    border: solid;
+    text-align: center;
+
+}
+
+.display-4 {
+    font-size: 50px;
+    font-weight: 900;
+    display: inline-block;
+    
+}
+
+
